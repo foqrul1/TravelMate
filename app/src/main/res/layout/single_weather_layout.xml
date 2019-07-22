@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+        android:background="@drawable/weather_background"
+
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/single_temp_tv_fwf"
+                android:text="37 °C"
+                android:textColor="#fff"
+                android:layout_marginTop="12dp"
+                android:textSize="25dp"/>
+            <TextView
+                android:id="@+id/single_day_of_week_tv_fwf"
+                android:text="Sunday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:layout_alignEnd="@+id/single_temp_tv_fwf"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:id="@+id/single_max_temp_tv_fwf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:text="Max : 37 °C" />
+
+            <TextView
+                android:id="@+id/single_minn_temp_tv_fwf"
+                android:layout_width="wrap_content"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"
+                android:layout_alignEnd="@+id/single_max_temp_tv_fwf"
+                android:text="Min : 37 °C"
+                android:textSize="15dp" />
+            <ImageView
+                android:id="@+id/single_weather_ic_img"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="147dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/weather_sample"
+                />
+
+
+            <TextView
+                android:layout_marginLeft="135dp"
+                android:id="@+id/single_date_tv_fwf"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content"
+                android:text="12-2-2017"
+                android:layout_marginBottom="12dp"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+
+</LinearLayout>
+

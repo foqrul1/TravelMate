@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">878463374736-ea2jnr5ipg7f2tdcg9pt5idkl1crkjpm.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://travel-mate-5ebf4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">878463374736</string>
+    <string name="google_api_key" translatable="false">AIzaSyBUBY16xHZJgIVaK2Rzh_TdQQzzuuL3avg</string>
+    <string name="google_app_id" translatable="false">1:878463374736:android:bfb19d5fd522e140</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBUBY16xHZJgIVaK2Rzh_TdQQzzuuL3avg</string>
+    <string name="google_storage_bucket" translatable="false">travel-mate-5ebf4.appspot.com</string>
+    <string name="project_id" translatable="false">travel-mate-5ebf4</string>
+</resources>

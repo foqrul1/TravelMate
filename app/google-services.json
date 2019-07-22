@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "878463374736",
+    "firebase_url": "https://travel-mate-5ebf4.firebaseio.com",
+    "project_id": "travel-mate-5ebf4",
+    "storage_bucket": "travel-mate-5ebf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878463374736:android:bfb19d5fd522e140",
+        "android_client_info": {
+          "package_name": "com.example.mahmud.travelmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878463374736-ea2jnr5ipg7f2tdcg9pt5idkl1crkjpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUBY16xHZJgIVaK2Rzh_TdQQzzuuL3avg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
